@@ -18,22 +18,40 @@ This program takes an input json that has shipments and drivers process the assi
 # Pre-requisites
 
 If want to build:
+- Download the zip of the code or clone this repository
 - Have go installed. Instructions in this link https://go.dev/doc/install
+- Recommended have Visual Studio Code with go extension installed (https://marketplace.visualstudio.com/items?itemName=golang.Go)
 - The program is a module that is already initialized to allow build
 - To build go to cmd folder and run 
+    - For Macos/Linux 
     ```
-    go build -o ../ShipmentAssignment
+    go build -o ShipmentAssignment
+    ```
+    - For Windows
+    ```
+    go build -o ShipmentAssignment.exe
     ```
 
 # How to run
 
-Included is the binary file of the program, The following command will show the parameters that supports and what to use
-
+Included is the binary file of the program, the .exe file for windows and the binary file for unix.
+The following command will show the parameters that supports and what to use
+- For Macos/Linux
 ```
 ./ShipmentsAssigemnt --help
 ```
+- For Windows
+```
+ShipmentsAssigemnt.exe --help
+```
+
 
 The following command for example takes the input file that contains shipments and drivers in it
-```bash
+- For Macos/Linux
+```
 ./ShipmentsAssigemnt --inputFilePath=[absolute_file_path]
+```
+- For Windows
+```
+ShipmentsAssigemnt.exe --inputFilePath=[absolute_file_path]
 ```
