@@ -25,11 +25,11 @@ If want to build:
 - To build go to cmd folder and run 
     - For Macos/Linux 
     ```
-    go build -o ShipmentAssignment
+    go build -o ShipmentsAssignment
     ```
     - For Windows
     ```
-    go build -o ShipmentAssignment.exe
+    go build -o ShipmentsAssignment.exe
     ```
 
 # How to run
